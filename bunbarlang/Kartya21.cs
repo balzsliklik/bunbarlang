@@ -103,6 +103,11 @@ namespace bunbarlang
                     System.Threading.Thread.Sleep(800);
                     osztoLapok.Add(KartyaHuzas());
                     osztoPont = PontSzamilas(osztoLapok);
+                    
+                    if (osztoPont > sajatVegso && osztoPont < 22)
+                    {
+                        break;
+                    }
                 }
 
                 Console.WriteLine($"Osztó végső keze: {string.Join(", ", osztoLapok)} (Összeg: {osztoPont})");

@@ -6,10 +6,10 @@ namespace bunbarlang
     {
         static void Main(string[] args)
         {
-            // Kezdő beállítások
+
             Jatekos jatekos = new Jatekos(10000);
 
-            // Játék példányok létrehozása
+
             Kartya21 blackjack = new Kartya21();
             Roulette rulett = new Roulette();
             Penzfeldobas feldobas = new Penzfeldobas();
